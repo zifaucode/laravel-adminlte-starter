@@ -24,3 +24,8 @@ use Illuminate\Support\Facades\Route;
 Route::controller(AdminController::class)->prefix('/')->group(function () {
     Route::get('/', 'index')->name('dashboard');
 });
+/*
+|--------------------------------------------------------------------------
+| END ROUTE FRONTEND 🟤
+|--------------------------------------------------------------------------
+*/
